@@ -1,0 +1,105 @@
+{
+  "project_info": {
+    "project_number": "603489665165",
+    "firebase_url": "https://medicineapp-78d84.firebaseio.com",
+    "project_id": "medicineapp-78d84",
+    "storage_bucket": "medicineapp-78d84.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603489665165:android:89345670b76451a8",
+        "android_client_info": {
+          "package_name": "com.dev.a4.www.medicineapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "603489665165-6n74l4oljnb2ho842ev4upuu8v5u76sg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dev.a4.www.medicineapp",
+            "certificate_hash": "01406db7857d139a8e16b2fb5064a86dcdcfc176"
+          }
+        },
+        {
+          "client_id": "603489665165-hu6517igurg6tovi5hc6eoujkjfa10v5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAavI-zbyqVDANlp_AuOPZvfheOofjJqLY"
+        },
+        {
+          "current_key": "AIzaSyDJp4G8p52BV79x_QEzge1dJ-G-Sh5w_Ws"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "603489665165-hu6517igurg6tovi5hc6eoujkjfa10v5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603489665165:android:eaa7a81880884b1d",
+        "android_client_info": {
+          "package_name": "com.a4devspirit.a1.medicineapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "603489665165-9jtr8346nhiuek0dkh4q9199uu5oqcd9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.a4devspirit.a1.medicineapp",
+            "certificate_hash": "251f0d10640b6597b04a083a2f7430a8ff7518c1"
+          }
+        },
+        {
+          "client_id": "603489665165-hu6517igurg6tovi5hc6eoujkjfa10v5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAavI-zbyqVDANlp_AuOPZvfheOofjJqLY"
+        },
+        {
+          "current_key": "AIzaSyDJp4G8p52BV79x_QEzge1dJ-G-Sh5w_Ws"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "603489665165-hu6517igurg6tovi5hc6eoujkjfa10v5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

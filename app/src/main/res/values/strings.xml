@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">MedicineApp</string>
+    <string name="fill_the_fields">Fill the fields</string>
+    <string name="login">Login</string>
+    <string name="successful">Successful</string>
+    <string name="error">Error</string>
+    <string name="delete_contact">Delete contact</string>
+    <string name="sure">Are you sure?</string>
+    <string name="loading">Loading...</string>
+    <string name="yes">Yes</string>
+    <string name="cancel">Cancel</string>
+    <string name="contact_removed">Contact is removed</string>
+    <string name="deleting">Deleting</string>
+    <string name="contact_added">Contact is added</string>
+    <string name="add_contact">Add contact</string>
+    <string name="sign_out">Sign out</string>
+    <string name="delete_account">Delete account</string>
+    <string name="registration">Registration</string>
+    <string name="end">End</string>
+    <string name="remove_diagnose">Remove a diagnose</string>
+    <string name="no_longer_sick_question">Are you no longer sick?</string>
+    <string name="no_longer_sick">No longer sick</string>
+    <string name="wait">Wait...</string>
+    <string name="passwords_do_not_match">Passwords do not match</string>
+
+    <string-array name="occurence">
+        <item>Once</item>
+        <item>Weekly</item>
+    </string-array>
+
+    <string-array name="pref_alarm_play_time_entries">
+        <item>10 seconds</item>
+        <item>30 seconds</item>
+        <item>1 minute</item>
+        <item>2 minutes</item>
+        <item>3 minutes</item>
+        <item>5 minutes</item>
+    </string-array>
+
+    <string-array name="pref_alarm_play_time_values">
+        <item>10</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>300</item>
+    </string-array>
+</resources>

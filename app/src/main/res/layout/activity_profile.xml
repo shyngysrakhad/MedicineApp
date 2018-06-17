@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backgroundMain">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/backgroundMain">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/user_option2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/user_option1"
+                android:layout_alignLeft="@+id/user_option1"
+                android:layout_alignRight="@+id/user_option1"
+                android:layout_alignStart="@+id/user_option1"
+                android:layout_below="@+id/user_option1"
+                android:text="Loading"
+                android:textAlignment="center"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:textSize="@dimen/user_text_size_small"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/user_option1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/relativeLayout"
+                android:layout_alignLeft="@+id/relativeLayout"
+                android:layout_alignRight="@+id/relativeLayout"
+                android:layout_alignStart="@+id/relativeLayout"
+                android:layout_below="@+id/relativeLayout"
+                android:layout_marginTop="10dp"
+                android:text="Full name"
+                android:textAlignment="center"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:textSize="@dimen/user_text_size_big"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="@dimen/main_background_logo_size"
+                android:layout_height="@dimen/main_background_logo_size"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_cardiogram" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="@dimen/main_background_logo_size"
+                android:layout_height="@dimen/main_background_logo_size"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_margin="@dimen/main_background_logo_margin"
+                app:srcCompat="@drawable/ic_medicine" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="@dimen/main_background_logo_size"
+                android:layout_height="@dimen/main_background_logo_size"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_margin="@dimen/main_background_logo_margin"
+                app:srcCompat="@drawable/ic_medical_stethoscope_variant" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="@dimen/main_background_logo_size"
+                android:layout_height="@dimen/main_background_logo_size"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_margin="@dimen/main_background_logo_margin"
+                app:srcCompat="@drawable/ic_dna" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="@dimen/main_background_logo_size"
+                android:layout_height="@dimen/main_background_logo_size"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_margin="@dimen/main_background_logo_margin"
+                app:srcCompat="@drawable/ic_pills" />
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true">
+
+                <io.netopen.hotbitmapgg.library.view.RingProgressBar
+                    android:id="@+id/progress"
+                    android:layout_width="@dimen/loading_logo_size"
+                    android:layout_height="@dimen/loading_logo_size"
+                    app:max="100"
+                    app:ringColor="@color/progressBar"
+                    app:ringProgressColor="#79ffffff"
+                    app:ringWidth="14dp"
+                    app:style="STROKE"
+                    app:textColor="@android:color/white"
+                    app:textIsShow="true"
+                    app:textSize="40dp" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button_symptoms"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:drawableLeft="@drawable/ic_symptoms"
+            android:fontFamily="serif"
+            android:gravity="left|center_vertical"
+            android:padding="20dp"
+            android:text="Diagnosis"
+            android:textSize="@dimen/user_text_size_small"
+            android:textStyle="bold"
+            android:background="@drawable/button_style"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+        <Button
+            android:id="@+id/button_tips"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:drawableLeft="@drawable/ic_tips"
+            android:fontFamily="serif"
+            android:gravity="left|center_vertical"
+            android:padding="20dp"
+            android:text="Tips"
+            android:textSize="@dimen/user_text_size_small"
+            android:textStyle="bold"
+            android:background="@drawable/button_style"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+        <Button
+            android:id="@+id/button_check"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:drawableLeft="@drawable/ic_stethoscope"
+            android:fontFamily="serif"
+            android:gravity="left|center_vertical"
+            android:padding="20dp"
+            android:text="Cure"
+            android:textSize="@dimen/user_text_size_small"
+            android:textStyle="bold"
+            android:background="@drawable/button_style"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+        <Button
+            android:id="@+id/button_reminder"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:drawableLeft="@drawable/ic_list"
+            android:fontFamily="serif"
+            android:gravity="left|center_vertical"
+            android:padding="20dp"
+            android:text="Reminder"
+            android:textSize="@dimen/user_text_size_small"
+            android:textStyle="bold"
+            android:background="@drawable/button_style"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp" />
+
+    </LinearLayout>
+</LinearLayout>

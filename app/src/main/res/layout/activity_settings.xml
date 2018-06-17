@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:baselineAligned="false">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/user_text_size_small"
+        android:background="@android:drawable/editbox_dropdown_light_frame">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="First name"
+            android:textSize="@dimen/user_text_size_small"
+            android:layout_marginLeft="@dimen/margin_element" />
+
+        <EditText
+            android:id="@+id/edit_user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView6"
+            android:layout_margin="@dimen/margin_element"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textSize="@dimen/user_text_size_small" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/edit_user_name"
+            android:text="Last name"
+            android:textSize="@dimen/user_text_size_small"
+            android:layout_marginLeft="@dimen/margin_element" />
+
+        <EditText
+            android:id="@+id/edit_user_surname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView7"
+            android:layout_margin="@dimen/margin_element"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textSize="@dimen/user_text_size_small" />
+
+        <TextView
+            android:text="Select age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:textSize="@dimen/user_text_size_small"
+            android:layout_marginLeft="@dimen/margin_element" />
+
+        <Spinner
+            android:id="@+id/edit_spinner_age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/edit_user_surname"
+            android:background="@drawable/spinner"
+            android:layout_marginLeft="@dimen/margin_element"
+            android:layout_marginRight="@dimen/margin_element" />
+
+        <TextView
+            android:text="Select gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:layout_marginLeft="@dimen/margin_element" />
+
+        <Spinner
+            android:id="@+id/edit_spinner_gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/edit_spinner_age"
+            android:background="@drawable/spinner"
+            android:layout_marginLeft="@dimen/margin_element"
+            android:layout_marginRight="@dimen/margin_element" />
+
+        <TextView
+            android:text="Select region"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8"
+            android:layout_marginLeft="@dimen/margin_element" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_spinner_city"
+            android:layout_below="@+id/edit_spinner_gender"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/spinner"
+            android:layout_marginLeft="@dimen/margin_element"
+            android:layout_marginRight="@dimen/margin_element" />
+
+        <Button
+            android:id="@+id/button_refresh_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:textSize="@dimen/user_text_size_big"
+            android:padding="@dimen/user_text_size_small"
+            android:layout_below="@+id/edit_spinner_city"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:backgroundTint="@color/backgroundMain"
+            android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/user_text_size_small">
+
+        <Button
+            android:id="@+id/button_sign_out"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign out"
+            android:layout_margin="@dimen/margin_element"
+            android:textSize="@dimen/user_text_size_big"
+            android:padding="@dimen/user_text_size_small"
+            android:backgroundTint="?attr/colorPrimary"
+            android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+        <Button
+            android:id="@+id/button_remove_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete account"
+            android:layout_below="@+id/button_sign_out"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_margin="@dimen/margin_element"
+            android:textSize="@dimen/user_text_size_big"
+            android:padding="@dimen/user_text_size_small"
+            android:backgroundTint="@android:color/holo_red_dark"
+            android:textColor="@color/common_google_signin_btn_text_dark_default" />
+    </RelativeLayout>
+
+</RelativeLayout>
